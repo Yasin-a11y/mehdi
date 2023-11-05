@@ -11,7 +11,7 @@ channel_id = "@Mehdicigarette"
 # Function to send a picture from a URL to the channel
 def send_picture():
     # Replace "picture_url" with the actual URL of your picture
-    picture_url = "https://imageupload.io/ib/DRaxHSk2GCzWDgT_1699207640.jpg"
+    picture_url = "https://photo20.ir/images/4pmtq4o7cd83k9ini96.jpg"
     response = requests.get(picture_url)
     if response.status_code == 200:
         with open("picture.jpg", "wb") as file:
